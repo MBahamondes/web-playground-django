@@ -40,7 +40,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'ckeditor',
     'core',
-    'pages.apps.PagesConfig'
+    'messenger',
+    'pages.apps.PagesConfig',
+    'profiles',
 ]
 
 MIDDLEWARE = [
@@ -134,3 +136,7 @@ if DEBUG:
 else:
     # Aquí hay que configurar un email real para producción
     pass
+
+# Media Files
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
