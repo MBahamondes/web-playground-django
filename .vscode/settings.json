@@ -1,3 +1,4 @@
 {
-    "python.pythonPath": "C:\\Users\\exmbaha\\Documents\\python\\virtualEnv\\curso\\Scripts\\python.exe"
+    "python.pythonPath": "C:\\Users\\exmbaha\\Documents\\python\\virtualEnv\\curso\\Scripts\\python.exe",
+    "python.linting.pylintEnabled": true
 }
